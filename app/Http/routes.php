@@ -11,11 +11,7 @@
 |
 */
 
-<<<<<<< HEAD
 Route::get('/', "ProductsController@index");
 Route::post("/","ProductsController@store");
-=======
-Route::get('/', function () {
-    return view('welcome');
-});
->>>>>>> af8a4f84a87e6fa3ff3a42ef3b8e5c1cbc79de28
+
+?>

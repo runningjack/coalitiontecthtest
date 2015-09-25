@@ -54,23 +54,10 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> a6866ad481cab6dc569e622d248d96eb0bc11207
             'host'      => 'localhost',
             'database'  => 'coalitiontechtest',
             'username'  => 'root',
             'password'  => '',
-<<<<<<< HEAD
-=======
-=======
-            'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'forge'),
-            'username'  => env('DB_USERNAME', 'forge'),
-            'password'  => env('DB_PASSWORD', ''),
->>>>>>> af8a4f84a87e6fa3ff3a42ef3b8e5c1cbc79de28
->>>>>>> a6866ad481cab6dc569e622d248d96eb0bc11207
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
